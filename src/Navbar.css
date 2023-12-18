@@ -1,0 +1,47 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  max-width: 1440px;
+  width: 100%;
+  align-items: center;
+  position: absolute;
+  top: 0;
+}
+
+.navContent {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  background: none;
+  border: none;
+  color: white;
+}
+
+.logoBtn {
+  font-size: 24px;
+  letter-spacing: 5%;
+  font-weight: medium;
+  margin-right: 32px;
+}
+
+.navBtn {
+  font-size: 15px;
+  font-family: "stolzl-regular";
+  padding: 10px 10px;
+  margin-right: 6px;
+  opacity: 0.75;
+}
+
+.navBtn:hover {
+  opacity: 1;
+}
+
+.navContactBtn {
+  font-size: 15px;
+  font-family: "stolzl-medium";
+  padding: 10px 10px;
+  letter-spacing: 1px;
+}

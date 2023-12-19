@@ -1,0 +1,110 @@
+@media only screen and (max-width: 768px) {
+  /* Fonts */
+  h1 {
+    font-family: "stolzl-regular";
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 2px;
+  }
+
+  h2 {
+    font-family: "stolzl-regular";
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 1px;
+  }
+
+  h3 {
+    font-family: "stolzl-regular";
+    font-size: 20px;
+  }
+
+  h4 {
+    font-family: "stolzl-medium";
+    font-size: 18px;
+  }
+
+  h5 {
+    font-family: "stolzl-medium";
+    font-size: 15px;
+    font-weight: medium;
+    letter-spacing: 1px;
+  }
+
+  p {
+    font-family: "stolzl-regular";
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+  }
+
+  section {
+    padding: 64px 0;
+  }
+
+  /* Navbar */
+  nav {
+    box-sizing: border-box;
+    padding: 12px;
+  }
+  .navBtn {
+    display: none;
+  }
+
+  /* Hero */
+  .heroContent {
+    padding: 124px 12px 0 12px;
+    text-align: center;
+  }
+
+  /* Platform */
+  .platformContainer {
+    padding: 0 12px;
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  .platformContainer div {
+    width: 100%;
+  }
+
+  .platformContainer img {
+    width: 100%;
+  }
+
+  /* Statistics */
+  .statisticsContainer {
+    padding: 0 12px;
+  }
+
+  .statisticsContainer h2 {
+    margin-bottom: 32px;
+  }
+
+  .cardContainer {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .statCard {
+    margin: 0;
+  }
+
+  /* Help us */
+  .helpUsContainer {
+    padding: 0 12px;
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  /* Newsletter */
+  .centerAlign {
+    padding: 0 12px;
+  }
+
+  /* Footer */
+  .footerContent {
+    flex-direction: column;
+    padding: 0 12px;
+  }
+}

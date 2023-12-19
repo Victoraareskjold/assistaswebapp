@@ -61,6 +61,7 @@
 
 .cardContainer {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   gap: 20px;
   width: 100%;
@@ -75,6 +76,7 @@
   text-align: center;
   gap: 10px;
   height: 200px;
+  max-width: 305px;
   display: flex;
   flex-direction: column;
   justify-content: center;

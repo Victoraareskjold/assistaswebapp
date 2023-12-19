@@ -51,7 +51,7 @@ function Home() {
       {/* Statistikk */}
       <section id="statistics">
         <div className="statisticsContainer">
-          <h2>Oppmerksomhetsfangende statistikk</h2>
+          <h2>Statistikk</h2>
           <div className="cardContainer">
             <StatCard title="10.000" text="Jobbmuligheter opprettet" />
             <StatCard title="10.000" text="Jobbmuligheter opprettet" />

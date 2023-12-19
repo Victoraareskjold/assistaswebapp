@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   /* Fonts */
   h1 {
     font-family: "stolzl-regular";
@@ -64,6 +64,11 @@
     gap: 64px;
   }
 
+  .platformContainer h2,
+  .platformContainer p {
+    margin: 0 0 24px 0;
+  }
+
   .platformContainer div {
     width: 100%;
   }
@@ -78,16 +83,23 @@
   }
 
   .statisticsContainer h2 {
-    margin-bottom: 32px;
+    margin-bottom: 20px;
   }
 
   .cardContainer {
     justify-content: center;
-    gap: 20px;
+    gap: 12px;
   }
 
   .statCard {
     margin: 0;
+    max-width: calc((100% - 60px) / 2);
+    height: 150px;
+    padding: 12px;
+  }
+
+  .statCard h2 {
+    margin-bottom: 12px;
   }
 
   /* Help us */
@@ -95,6 +107,11 @@
     padding: 0 12px;
     flex-direction: column;
     gap: 64px;
+  }
+
+  .helpUsContainer h2,
+  .helpUsContainer p {
+    margin: 0 0 24px 0;
   }
 
   /* Newsletter */
